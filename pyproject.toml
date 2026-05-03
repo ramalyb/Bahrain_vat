@@ -1,13 +1,13 @@
 [build-system]
-   requires = ["flit_core >=3.4,<4"]
-   build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
 
-   [project]
-   name = "bahrain_vat"
-   authors = [{ name = "ERPGulf" }]
-   dynamic = ["version", "description"]
-   requires-python = ">=3.10"
-   dependencies = ["frappe"]
+[project]
+name = "bahrain_vat"
+authors = [{ name = "ERPGulf" }]
+dynamic = ["version", "description"]
+requires-python = ">=3.10"
+dependencies = ["frappe"]
 
-   [tool.frappe]
-   frappe_version = ">=15.0.0"
+[tool.frappe]
+frappe_version = ">=15.0.0"
